@@ -1,0 +1,63 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #e0e7ff);
+  min-height: 100vh;
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #2d3748;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.dark-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.dark-toggle:hover {
+  background-color: #555;
+}
+
+.App.dark {
+  background: #1a202c;
+  color: white;
+}
+
+.App.dark h2 {
+  color: white;
+}
+
+.App.dark h3 {
+  color: white;
+}
+.App.dark .user-card {
+  background: #2d3748;
+  color: white;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.App.dark .user-email {
+  color: #cbd5e0;
+}
+
+.App.dark .buttons button {
+  background-color: #4a5568;
+}
+
+.App.dark .buttons button:hover {
+  background-color: #2d3748;
+}
